@@ -10,9 +10,9 @@
 		101091A71A6B32A900DEDF1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101091A61A6B32A900DEDF1F /* AppDelegate.swift */; };
 		101091A91A6B32A900DEDF1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101091A81A6B32A900DEDF1F /* ViewController.swift */; };
 		101091AC1A6B32A900DEDF1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101091AA1A6B32A900DEDF1F /* Main.storyboard */; };
-		101091AE1A6B32A900DEDF1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101091AD1A6B32A900DEDF1F /* Images.xcassets */; };
 		101091B11A6B32A900DEDF1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101091AF1A6B32A900DEDF1F /* LaunchScreen.xib */; };
 		101091BD1A6B32A900DEDF1F /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101091BC1A6B32A900DEDF1F /* tipsTests.swift */; };
+		10C7AB201A6CA61D007D7C07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C7AB1F1A6CA61D007D7C07 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,11 +31,11 @@
 		101091A61A6B32A900DEDF1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		101091A81A6B32A900DEDF1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		101091AB1A6B32A900DEDF1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		101091AD1A6B32A900DEDF1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		101091B01A6B32A900DEDF1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		101091B61A6B32A900DEDF1F /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		101091BB1A6B32A900DEDF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		101091BC1A6B32A900DEDF1F /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
+		10C7AB1F1A6CA61D007D7C07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 				101091A61A6B32A900DEDF1F /* AppDelegate.swift */,
 				101091A81A6B32A900DEDF1F /* ViewController.swift */,
 				101091AA1A6B32A900DEDF1F /* Main.storyboard */,
-				101091AD1A6B32A900DEDF1F /* Images.xcassets */,
+				10C7AB1F1A6CA61D007D7C07 /* Images.xcassets */,
 				101091AF1A6B32A900DEDF1F /* LaunchScreen.xib */,
 				101091A41A6B32A900DEDF1F /* Supporting Files */,
 			);
@@ -192,9 +192,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C7AB201A6CA61D007D7C07 /* Images.xcassets in Resources */,
 				101091AC1A6B32A900DEDF1F /* Main.storyboard in Resources */,
 				101091B11A6B32A900DEDF1F /* LaunchScreen.xib in Resources */,
-				101091AE1A6B32A900DEDF1F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = tips/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -347,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = tips/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -407,6 +409,7 @@
 				101091C21A6B32A900DEDF1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		101091C31A6B32A900DEDF1F /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +418,7 @@
 				101091C51A6B32A900DEDF1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
