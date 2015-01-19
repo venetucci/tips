@@ -6,11 +6,12 @@ This is a basic tip calculator app, created for CodePath.
 Time spent: 4 hours
 
 ### Stories
-- [x] Completed basic app set-up
-- [x] Optional Features
+- [x] Completed all basic app set-up from CodePath tutorial
+- [x] Completed optional features:
   - [x] Changed colors and layout of main app
   - [x] Created custom app icon
   - [x] Created custom launch screen with image / image view
+  - [x] Added a MIT license file
 
 ### App Demo
 
